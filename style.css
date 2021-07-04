@@ -8,8 +8,9 @@ h1{
 }
 p{
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.0em;
     margin-right: 10px;
+    font-weight: lighter;
 }
 .orange{
     color: orangered;
@@ -65,6 +66,7 @@ p{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 100px;
     
 }
 #web-dev{
@@ -78,4 +80,7 @@ p{
     border-image: linear-gradient(rgb(98, 0, 255), rgb(0, 204, 255));
     border-image-slice: 1;
     border-left: 7px solid;
+}
+.footer{
+    text-align: center;
 }
