@@ -67,6 +67,7 @@ p{
     background-repeat: no-repeat;
     background-position: left;
     margin-bottom: 100px;
+    vertical-align: middle;
     
 }
 #web-dev{
@@ -82,5 +83,7 @@ p{
     border-left: 7px solid;
 }
 .footer{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+   
 }
